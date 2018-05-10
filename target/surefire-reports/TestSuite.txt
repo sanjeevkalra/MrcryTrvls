@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 2, Errors: 0, Skipped: 13, Time elapsed: 131.043 s <<< FAILURE! - in TestSuite
+openBrowser(com.selenium.test.flights.FlightsTest)  Time elapsed: 120.134 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Process unexpectedly closed with status: 0
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'VAIO', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x47e934 - <no info>
+   1:           0x47f0a3 - <no info>
+   2:           0x442649 - <no info>
+   3:           0x449cc3 - <no info>
+   4:           0x42a890 - <no info>
+   5:           0x406f5e - <no info>
+   6:           0x40cfc9 - <no info>
+   7:           0x6bef19 - <no info>
+   8:           0x420756 - <no info>
+   9:           0x6b96e0 - <no info>
+  10:     0x7ffad45a1fe4 - BaseThreadInitThunk
+	at com.selenium.test.flights.FlightsTest.openBrowser(FlightsTest.java:24)
+
+openBrowser(com.selenium.test.hotels.HotelsTest)  Time elapsed: 120.134 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method openBrowser but has not been marked @Optional or defined
+
+

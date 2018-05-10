@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MercuryTravel">
+<parameter name="browser" value="firefox"/>
+<parameter name="url" value="https://www.mercurytravels.co.in/"/>
+  <test thread-count="5" name="Flights">
+      <classes>
+          <!-- <class name="com.selenium.test.flights.FlightsTest" /> -->
+          <class name="com.selenium.test.hotels.HotelsTest" />
+      </classes>
+  </test> <!-- Flights -->
+</suite> <!-- MercuryTravel -->

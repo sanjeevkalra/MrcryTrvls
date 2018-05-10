@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MercuryTravel]">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="url" value="https://www.mercurytravels.co.in/"/>
+  <test thread-count="5" name="Flights(failed)">
+    <classes>
+      <class name="com.selenium.test.hotels.HotelsTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="selectResultFilters"/>
+          <include name="searchHotels"/>
+        </methods>
+      </class> <!-- com.selenium.test.hotels.HotelsTest -->
+    </classes>
+  </test> <!-- Flights(failed) -->
+</suite> <!-- Failed suite [MercuryTravel] -->

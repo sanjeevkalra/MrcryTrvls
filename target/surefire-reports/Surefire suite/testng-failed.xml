@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="com.selenium.test.hotels.HotelsTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="selectResultFilters"/>
+          <include name="searchHotels"/>
+        </methods>
+      </class> <!-- com.selenium.test.hotels.HotelsTest -->
+      <class name="com.selenium.test.flights.FlightsTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="testFlightsThree"/>
+          <include name="testFlightsTwo"/>
+          <include name="searchFlights"/>
+        </methods>
+      </class> <!-- com.selenium.test.flights.FlightsTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
